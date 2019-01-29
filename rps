@@ -1,0 +1,49 @@
+import random          # imports the library named random
+
+user = input ("Choose your weapon: ")
+comp = random.choice(['rock' ,'paper' , 'scissors'])
+print()
+
+print ('The user (you) chose' , user)
+print ('The computer (me!) chose' , comp)
+print()
+
+if user == 'rock' :
+  print ('I do rock! Thanks. And I actually chose paper... so I win!')
+  print("Try again!")
+  user = input ("Choose your weapon: ")
+  comp = random.choice(['rock' ,'paper' , 'scissors'])
+  print()
+  print ('The user (you) chose' , user)
+  print ('The computer (me!) chose' , comp)
+  print()
+
+
+if user == 'paper' :
+  print ("Haha! Just kidding, I always choose scissors. I win! Try again? ")
+  user = input ("Choose your weapon: ")
+  comp = random.choice(['rock' ,'paper' , 'scissors'])
+  print()
+
+  print ('The user (you) chose' , user)
+  print ('The computer (me!) chose' , comp)
+  print()
+
+if user == 'scissors' :
+  print ("Jokes on you I always pick rock!")
+  print ("Try again!")
+  user = input ("Choose your weapon: ")
+  comp = random.choice(['rock' ,'paper' , 'scissors'])
+  print()
+
+  print ('The user (you) chose' , user)
+  print ('The computer (me!) chose' , comp)
+  print()
+
+
+
+
+
+
+
+
